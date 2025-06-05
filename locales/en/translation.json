@@ -1,0 +1,285 @@
+{
+  "home": {
+    "name":"Diyar",
+    "namet":"Haji",
+    "greeting": "Hi There, I'm",
+    "description": "Building modern, multilingual, responsive web apps with React & Agile precision.",
+    "findMe": "Find Me In",
+    "contact": "Get In Touch",
+    "downloadCV": "Download My Cv",
+    "experience": "Years Of Experience"
+  },
+    "slide": {
+    "items": [
+      "Web Developer",
+      "UX/UI Designer",
+      "Project Manager",
+      "Front end Developer",
+      "Manager"
+    ]
+  },
+   "typed": {
+    "strings": [
+      "Project Manager",
+      "UX / UI designer",
+      "Front End",
+      "Web Developer"
+    ]
+  },"about": {
+    "title": "About Me",
+    "alt": "Diyar Gohdar Haji",
+    "description": "I’m a Front End Developer and Agile Project Manager passionate about building fast, responsive, and beautifully designed digital experiences. My work blends clean code with thoughtful design, driven by a deep understanding of both user experience and project leadership.",
+    "whatDrivesMe": {
+      "title": "What Drives Me",
+      "performance": { "title": "Performance Obsessed", "desc": "20% faster load times" },
+      "execution": { "title": "Reliable Execution", "desc": "100% on-time delivery" },
+      "team": { "title": "Team Leadership", "desc": "Led dev teams" },
+      "certified": { "title": "Certified & Committed", "desc": "Pursuing PMP" }
+    },
+    "myJourney": {
+      "title": "My Journey",
+      "paragraph1": "Pursuing a Bachelor's in English Language Teaching while building a career in web development and project management. Currently working toward PMP certification to strengthen my leadership in tech projects.",
+      "paragraph2": "I combine technical skills with strong communication to deliver results."
+    },
+    "languages": {
+      "title": "Languages",
+      "english": "English",
+      "arabic": "Arabic",
+      "kurdish": "Kurdish",
+      "fluent": "Fluent",
+      "native": "Native"
+    },
+    "additionalSkills": {
+      "title": "Additional Skills",
+      "typingSpeed": "Typing Speed: 51+ WPM",
+      "openSource": "Open Source Contributor"
+    },
+    "personalStrengths": {
+      "title": "Personal Strengths",
+      "strongCommunicator": "Strong Communicator",
+      "detailOriented": "Detail Oriented",
+      "fastLearner": "Fast Learner"
+    },
+    "mindset": {
+      "title": "Mindset & Work Ethic",
+      "growthOriented": "Growth Oriented",
+      "resilient": "Resilient Under Pressure",
+      "accountable": "Accountable & Organized"
+    }
+  },  "skill": {
+    "title": "My Skill",
+     "description": "A comprehensive toolkit for building modern web applications and managing successful projects.",
+    "cards": {
+      "uiux": {
+        "title": "UI/UX Design"
+      },
+      "frontend": {
+        "title": "Frontend Development"
+      },
+      "projectManagement": {
+        "title": "Project Management"
+      },
+      "tools": {
+        "title": "Tools & Technologies"
+      }
+    }
+  },"myServices": "My Services",
+  "servicesIntro": "Comprehensive solutions for your digital projects and technical leadership needs.",
+  "keyFeatures": "Key Features:",
+  "learnMore": "Learn More",
+  "services": [
+    {
+      "id": 1,
+      "pf": "Front End Developer",
+      "title": "Web Development",
+      "description": "Building responsive and high-performance websites and web applications tailored to your business goals.",
+      "features": [
+        "HTML, CSS, JS, React, Tailwind",
+        "Responsive & cross-browser design",
+        "API integration & RESTful services",
+        "Performance & SEO optimization"
+      ]
+    },
+    {
+      "id": 2,
+      "pf": "Project Management",
+      "title": "Web Project Management",
+      "description": "Delivering projects efficiently through structured planning, tracking, and collaboration.",
+      "features": [
+        "Scope & resource planning",
+        "Risk analysis & mitigation",
+        "Milestone tracking",
+        "Time and budget management"
+      ]
+    },
+    {
+      "id": 3,
+      "pf": "Front End Developer",
+      "title": "Design Integration",
+      "description": "Seamlessly integrating beautiful designs into functional, production-ready front end code.",
+      "features": [
+        "Pixel perfect UI implementation",
+        "Figma to code conversion",
+        "Tailwind CSS & Styled Components",
+        "Mobile first design principles"
+      ]
+    },
+    {
+      "id": 4,
+      "pf": "Project Management",
+      "title": "Agile Project Management",
+      "description": "Applying Agile methodologies to foster flexibility, iteration, and rapid delivery.",
+      "features": [
+        "Scrum & Kanban frameworks",
+        "Sprint planning & retrospectives",
+        "Iterative development cycles",
+        "Jira / Trello / Asana integration"
+      ]
+    },
+    {
+      "id": 5,
+      "pf": "Front End Developer",
+      "title": "UI/UX Optimization",
+      "description": "Enhancing user experience through thoughtful interface design and interaction patterns.",
+      "features": [
+        "User journey improvement",
+        "A/B testing & analytics",
+        "Accessibility compliance (WCAG)",
+        "Consistent visual language"
+      ]
+    },
+    {
+      "id": 6,
+      "pf": "Project Management",
+      "title": "Team & Client Communication",
+      "description": "Ensuring smooth communication between team members and clients for successful outcomes.",
+      "features": [
+        "Clear documentation & updates",
+        "Conflict resolution strategies",
+        "Cross-functional team leadership",
+        "Client feedback loops"
+      ]
+    }
+  ],
+  "featuredProjects": "Featured Projects",
+  "keyFeatures": "Key Features:",
+  "projects": {
+    "1": {
+      "title": "DIYAR HAJI Restaurant",
+      "description": "A comprehensive restaurant platform offering digital menus, table reservations, and online ordering to enhance customer experience and streamline restaurant operations.",
+      "features": ["Digital Menu Browsing", "Table Reservation System", "Online Ordering & Delivery"],
+      "bottom": "+35% Customer Engagement Growth"
+    },
+    "2": {
+      "title": "Booking System Web",
+      "description": "A real time booking system with calendar integration and payment processing, designed to streamline appointment scheduling and resource management.",
+      "features": ["Real time Booking", "Calendar Integration", "Payment Processing"],
+      "bottom": "100% booking accuracy"
+    },
+    "3": {
+      "title": "Furniture E-Commerce Website",
+      "description": "A modern e-commerce platform specializing in furniture sales with complete shopping cart functionality, secure payments, and order tracking.",
+      "features": ["Product Catalog", "Shopping Cart", "Payment Integration"],
+      "bottom": "+50% sales conversion"
+    },
+    "4": {
+      "title": "Modern Restaurant Website",
+      "description": "An elegant restaurant website featuring dynamic menu displays, online reservation system, and stunning gallery showcasing the dining experience.",
+      "features": ["Menu Display", "Online Reservations", "Gallery"],
+      "bottom": "+25% reservations"
+    },
+    "5": {
+      "title": "Multilingual Portfolio Website",
+      "description": "A sophisticated portfolio website with multi-language support, smooth animations, and SEO optimization to reach a global audience effectively.",
+      "features": ["Language Switching", "Smooth Animations", "Responsive Design"],
+      "bottom": "Global accessibility"
+    },
+    "6": {
+      "title": "CodeStan – Nike Ecommerce Store",
+      "description": "A sleek e-commerce store inspired by Nike's design philosophy, featuring modern UI/UX with seamless product showcase and checkout experience.",
+      "features": ["Product Showcase", "Cart Management", "Checkout Flow"],
+      "bottom": "Modern UI/UX"
+    },
+    "7": {
+      "title": "Dining Redefined – Restaurant Website",
+      "description": "A premium restaurant website that redefines the dining experience with modern storytelling, dynamic offers, and seamless reservation system.",
+      "features": ["Modern Hero & Brand Story", "Dynamic Daily Offers Section", "Reservation with Contact Info"],
+      "bottom": "Enhanced dining experience"
+    },
+    "8": {
+      "title": "Personal Portfolio Website – Diyar Haj",
+      "description": "A professional portfolio website showcasing skills, services, and work with dynamic sections and smooth user experience to establish a strong online presence.",
+      "features": ["Dynamic Hero & About Sections", "Services & Work Showcase", "Contact Form with Smooth UX"],
+      "bottom": "Professional presence"
+    }
+  }, "live": "Live",
+  "code": "Code", "experience": {
+    "educationTitle": "Experience & Education",
+    "description": "A proven track record of delivering exceptional results in development and project management.",
+    "workExperience": "Work Experience",
+    "freelance": "Freelance",
+    "remote": "Remote",
+    "projectManager": {
+      "title": "Project Manager",
+      "period": "Apr 2022 – Present",
+      "responsibilities": [
+        "Led 1+ web development projects using Agile methodologies",
+        "Coordinated developers/designers, managed sprints, retrospectives, standups",
+        "Reduced project delivery time by 15% with streamlined workflows",
+        "Maintained 100% on-time delivery and high stakeholder satisfaction"
+      ]
+    },
+    "frontendDesigner": {
+      "title": "Front End Developer & UI/UX Designer",
+      "period": "Mar 2021 – Present",
+      "responsibilities": [
+        "Developed 10+ responsive websites using React, JavaScript, Tailwind CSS",
+        "Redesigned UI in Figma, increasing conversion rates by 30%",
+        "Improved performance by 20% with lazy loading and code optimization",
+        "Ensured SEO best practices, accessibility, and mobile responsiveness"
+      ]
+    },
+    "educationCertifications": "Education & Certifications",
+    "bachelor": {
+      "title": "Bachelor of Education in English Language Teaching (TESOL)",
+      "university": "University of Duhok | College of Basic Education-Amedi",
+      "period": "Sep 2020 – Jul 2025 (Expected) | GPA: Good"
+    },
+    "professionalCertifications": {
+      "title": "Professional Certifications",
+      "items": [
+        "Project Management Specialization – University of Colorado Boulder",
+        "Project Management & Career Tools – University of California, Irvine",
+        "Digital Marketing Certification – Google",
+        "Certified Professional Project Manager (CPPM) – Google",
+        "Business Value & Project Management – University of Illinois",
+        "Organizational Leadership Specialization – Coursera"
+      ]
+    }
+  }, "contect": {
+    "title": "Let's Connect",
+    "description": "Ready to bring your next project to life? Let's discuss how we can work together to create something amazing.",
+    "getInTouch": "Get In Touch",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "locationValue": "Dohuk, Kurdistan, Iraq",
+    "findMeIn": "Find Me In",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "namePlaceholder": "Your Name",
+      "emailPlaceholder": "Your Email",
+      "messagePlaceholder": "Your Message",
+      "submit": "Submit Form"
+    }
+  },  "nav": {
+    "home": "Home",
+    "about": "About",
+    "service": "Service",
+    "project": "Project",
+    "experience": "Experience",
+    "contact": "Contact"
+  }
+}
