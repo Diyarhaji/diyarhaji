@@ -5,6 +5,7 @@ import images from "../assets/images";
 import LanguageSwitcher from '../components/LanguageSwitcher';
 import ThemeToggle from "../components/ThemeToggle";
 import {useEffect } from 'react'
+import { FaArrowUp  } from "react-icons/fa";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,7 +43,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Menu */}
-            <ul className="hidden md:flex text-lg text-center max-w-max mx-auto font gap-6 text-hThree">
+            <ul className="hidden  md:flex text-lg text-center max-w-max mx-auto font gap-6 text-hThree">
       <li className="hover:text-hOne transition-all duration-500 cursor-pointer">
         <a href="#home">{t('nav.home')}</a>
       </li>
@@ -64,7 +65,7 @@ const Navbar = () => {
     </ul>
 
         {/* Desktop Language & Theme Switchers */}
-        <div className="flex gap-4 items-center max-sm:hidden">
+        <div className="flex gap-4 items-center  max-sm:hidden">
           <LanguageSwitcher />
           <ThemeToggle />
         </div>
@@ -72,7 +73,7 @@ const Navbar = () => {
         {/* Mobile Toggle */}
         <div  
           onClick={toggleMenu}
-          className="text-2xl md:hidden cursor-pointer text-black dark:text-white"
+          className="text-2xl sm:flex md:hidden cursor-pointer text-black dark:text-white"
         >
           {isOpen ? <FaTimes /> : <div className="bartab"></div>}
         </div>
@@ -89,7 +90,7 @@ const Navbar = () => {
         <div className="mt-20 w-[215px] mx-auto">
           <img src={images.logo} alt="" className="w-full h-full" />
         </div>
-        <div className="flex gap-4 mt-10 items-center flex-wrap max-sm:block">
+        <div className="flex gap-4 mt-10 items-center flex-wrap sm:block max-sm:block">
           <div className="mx-auto max-w-max"><LanguageSwitcher /></div>
           <div className="mt-7"><ThemeToggle /></div>
         </div>
@@ -122,6 +123,14 @@ const Navbar = () => {
           className="fixed inset-0 bg-hFive opacity-30 z-30 md:hidden"
         ></div>
       )}
+
+      <div className={`fixed  bottom-10 left-10 border-hOne  before:contect-[''] before:absolute before:bg-hOne before:w-100% before:inset-0 before:rounded-full  before:h-100% before:-z-10 before:scale-0 hover:before:scale-100 before:transition-scale before:duration-500 rounded-full border p-3 animate-bounce ${
+              color
+                ? 'block'
+                : 'hidden'
+            }  ${
+          isRTL ? "left-10" : "left-10"
+        }`}> <a href="#home " className="z-20"> <FaArrowUp  /></a></div>
     </nav>
   );
 };

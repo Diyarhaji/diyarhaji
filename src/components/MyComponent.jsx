@@ -24,7 +24,7 @@ const MyComponent = () => {
     };
   }, [i18n.language]); // re-run effect when language changes
 
-  return <span className="text-hOne text-3xl" ref={el}></span>;
+  return <span className="text-hOne sm:text-5xl text-3xl" ref={el}></span>;
 };
 
 export default MyComponent;

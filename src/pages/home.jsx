@@ -46,12 +46,12 @@ const Home = () => {
 
         <div className="relative max-sm:order-1 z-10">
           <div>
-            <img src={images.diyar} data-aos="zoom-in-up" data-aos-duration="900" alt="" className='w-[380px] max-sm:mt-10 max-sm:w-[330px] max-sm:rounded-lg z-50 h-full' />
+            <img src={images.diyar} data-aos="zoom-in-up" data-aos-duration="900" alt="" className='w-[380px] max-sm:max-w-max max-sm:mx-auto max-sm:mt-10 max-sm:w-[330px] max-sm:rounded-lg z-50 h-full' />
           </div>
-          <div className="top-0 left-0 absolute flex gap-2 -z-10">
-            <img src={images.bgTop} data-aos="zoom-in-right" data-aos-duration="800" alt="" className='w-[280px] max-sm:h-[560px] max-sm:w-[600px] h-[590px] ml-10 rotate-180 -z-10' />
-            <img src={images.bgBottom} alt="" data-aos="zoom-in-left" data-aos-duration="800" className='w-[280px] max-sm:h-[590px] h-[660px] -mt-20 rotate-180 relative -z-10' />
-            <div  data-aos="zoom-in-left" data-aos-duration="800" className={`absolute top-20 max-sm:-right-2 ${isRTL ? 'left-3 ' : 'right-10'}`}>
+          <div className={`top-0 left-0 absolute flex gap-2 -z-10 ${isRTL ? 'flex-row-reverse  gap-1' : ''}`}>
+            <img src={images.bgTop} data-aos="zoom-in-right" data-aos-duration="800" alt="" className='w-[280px] max-sm:h-[560px] max-sm:w-[600px] h-[590px] ml-0 rotate-180 -z-10' />
+            <img src={images.bgBottom} alt="" data-aos="zoom-in-left" data-aos-duration="800" className='w-[280px] max-sm:w-[600px] max-sm:h-[590px] h-[660px] -mt-20 rotate-180 relative -z-10' />
+            <div   className={`absolute max-sm:hidden top-20 max-sm:-right-2 ${isRTL ? 'left-20 ' : 'right-10'}`}>
               <div className={`flex gap-3 items-center ${isRTL ? 'flex-row-reverse gap-1  text-right' : 'text-left'}`}>
                 <h1 className="text-9xl max-sm:text-6xl">3</h1>
                 <p className={`max-w-[100px]   ${isRTL ? 'text-xl -ml-10' : 'text-lg'}`}>{t('home.experience')}</p>
@@ -60,7 +60,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="-mt-20 "><Slide /></div>
+      <div className="-mt-20 max-sm:-mt-10 "><Slide /></div>
     </section>
   );
 };

@@ -30,9 +30,9 @@ function App() {
 
   return (
     <div className='bg-bgOne overflow-x-hidden scroll-smooth font-serif text-hThree'>
-      {loading ? (
+      {/* {loading ? (
         <Spinner />
-      ) : (
+      ) : ( */}
         <>
           <Navbar />
           <Home />
