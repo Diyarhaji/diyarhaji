@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/react-refresh' // or '@vitejs/plugin-react'
+import react from '@vitejs/plugin-react' // 👈 Fixed this import
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/diyarhaji/', // 👈 ADD THIS LINE WITH YOUR REPO NAME
+  base: '/diyarhaji/', // 👈 Keeps your GitHub subfolder path safe
 })

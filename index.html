@@ -3,34 +3,239 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Diyar Haji</title>
 
-    <!-- Favicon -->
-    <link rel="icon" href="./src/assets/webDiyar.jpg" type="image/jpeg" />
+    <!-- =========================================================
+         PRIMARY SEO — Title & Description
+         Google shows ~60 chars for title, ~155 chars for description
+    ========================================================= -->
+    <title>Diyar Haji | Frontend Developer & Project Manager — Duhok, Iraq</title>
+    <meta
+      name="description"
+      content="Diyar Haji is a Frontend Developer and Project Manager based in Duhok, Kurdistan Region, Iraq. Specialist in React, web design, and multilingual digital products. View portfolio and projects."
+    />
 
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Diyar Haji - Frontend Developer and Project Manager based in Duhok, Kurdistan, Iraq. Explore my web development portfolio in Kurdish, Arabic, and English." />
-    <meta name="keywords" content="Diyar Haji, Frontend Developer, Web Designer, Project Manager, Kurdistan, Duhok, Iraq, React Developer, Kurdish Developer, ديار حاجي, مطور مواقع, بەرێوبەری پرۆژە, پەرەپێدەر, دهوك" />
+    <!-- =========================================================
+         EXTENDED KEYWORDS
+         Covers English, Arabic (ديار حاجي), and Kurdish (دیار حاجی)
+         searches, plus role variations people actually type
+    ========================================================= -->
+    <meta
+      name="keywords"
+      content="
+        Diyar Haji, diyar haji, Diyar Haji developer, Diyar Haji Iraq,
+        Diyar Haji portfolio, Diyar Haji frontend, Diyar Haji project manager,
+        frontend developer Iraq, frontend developer Duhok, frontend developer Kurdistan,
+        project manager Iraq, project manager Kurdistan, project manager Duhok,
+        web developer Iraq, React developer Iraq, web designer Iraq,
+        ديار حاجي, ديار حاجي مطور واجهات, ديار حاجي مدير مشاريع,
+        مطور مواقع العراق, مطور واجهات أمامية العراق, مدير مشاريع دهوك,
+        دیار حاجی, دیار حاجی گەشەپێدەر, دیار حاجی بەڕێوەبەری پڕۆژە,
+        پەرەپێدانی وێبی کوردستان, گەشەپێدەری وێب دهۆک
+      "
+    />
+
     <meta name="author" content="Diyar Haji" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
 
-    <!-- Language-specific alternate links for SEO -->
+    <!-- Canonical -->
+    <link rel="canonical" href="https://diyarhaji.site/" />
+
+    <!-- =========================================================
+         HREFLANG — tells Google which page serves which language
+    ========================================================= -->
+    <link rel="alternate" href="https://diyarhaji.site/" hreflang="x-default" />
     <link rel="alternate" href="https://diyarhaji.site/en" hreflang="en" />
     <link rel="alternate" href="https://diyarhaji.site/ar" hreflang="ar" />
     <link rel="alternate" href="https://diyarhaji.site/ku" hreflang="ku" />
-    <link rel="alternate" href="https://diyarhaji.site/" hreflang="x-default" />
 
-    <!-- Open Graph Tags for social sharing -->
-    <meta property="og:title" content="Diyar Haji | Frontend Developer & Project Manager in Duhok" />
-    <meta property="og:description" content="Multilingual portfolio of Diyar Haji – Frontend Developer and Web Designer from Duhok, Kurdistan. Available in Kurdish, Arabic, and English." />
-    <meta property="og:image" content="https://diyarhaji.site/cover-image.jpg" />
+    <!-- =========================================================
+         OPEN GRAPH — Facebook / LinkedIn sharing card
+    ========================================================= -->
+    <meta property="og:site_name" content="Diyar Haji Portfolio" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://diyarhaji.site" />
+    <meta property="og:url" content="https://diyarhaji.site/" />
+    <meta property="og:title" content="Diyar Haji | Frontend Developer & Project Manager — Duhok, Iraq" />
+    <meta
+      property="og:description"
+      content="Diyar Haji is a Frontend Developer and Project Manager from Duhok, Kurdistan, Iraq. Builds React apps and manages digital projects in Kurdish, Arabic, and English."
+    />
+    <meta property="og:image" content="https://diyarhaji.site/cover-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Diyar Haji — Frontend Developer and Project Manager in Duhok, Iraq" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:locale:alternate" content="ku_IQ" />
     <meta property="og:locale:alternate" content="ar_IQ" />
+
+    <!-- =========================================================
+         TWITTER CARD
+    ========================================================= -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Diyar Haji | Frontend Developer & Project Manager — Iraq" />
+    <meta
+      name="twitter:description"
+      content="Frontend Developer and Project Manager based in Duhok, Kurdistan, Iraq. React, web design, multilingual digital products."
+    />
+    <meta name="twitter:image" content="https://diyarhaji.site/cover-image.jpg" />
+    <meta name="twitter:image:alt" content="Diyar Haji Portfolio" />
+
+    <!-- =========================================================
+         JSON-LD STRUCTURED DATA
+         This is the most important SEO element — Google reads it
+         to show a Knowledge Panel when someone searches "Diyar Haji"
+    ========================================================= -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://diyarhaji.site/#person",
+          "name": "Diyar Haji",
+          "alternateName": ["ديار حاجي", "دیار حاجی", "Diyar Haci"],
+          "url": "https://diyarhaji.site/",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://diyarhaji.site/src/assets/webDiyar.jpg",
+            "description": "Diyar Haji — Frontend Developer and Project Manager"
+          },
+          "jobTitle": ["Frontend Developer", "Project Manager", "Web Designer"],
+          "description": "Diyar Haji is a Frontend Developer and Project Manager based in Duhok, Kurdistan Region, Iraq. He builds modern web applications with React and manages digital projects in Kurdish, Arabic, and English.",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Duhok",
+            "addressRegion": "Kurdistan Region",
+            "addressCountry": "IQ"
+          },
+          "nationality": {
+            "@type": "Country",
+            "name": "Iraq"
+          },
+          "knowsLanguage": ["en", "ku", "ar"],
+          "knowsAbout": [
+            "Frontend Development",
+            "React",
+            "Web Design",
+            "Project Management",
+            "UI/UX Design",
+            "JavaScript",
+            "CSS",
+            "HTML"
+          ],
+          "sameAs": [
+            "https://diyarhaji.site/"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://diyarhaji.site/#website",
+          "url": "https://diyarhaji.site/",
+          "name": "Diyar Haji — Frontend Developer & Project Manager",
+          "description": "Portfolio of Diyar Haji, a Frontend Developer and Project Manager based in Duhok, Kurdistan, Iraq.",
+          "author": { "@id": "https://diyarhaji.site/#person" },
+          "inLanguage": ["en", "ku", "ar"],
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://diyarhaji.site/?s={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://diyarhaji.site/#webpage",
+          "url": "https://diyarhaji.site/",
+          "name": "Diyar Haji | Frontend Developer & Project Manager — Duhok, Iraq",
+          "description": "Official portfolio of Diyar Haji — Frontend Developer and Project Manager based in Duhok, Kurdistan Region, Iraq.",
+          "isPartOf": { "@id": "https://diyarhaji.site/#website" },
+          "about": { "@id": "https://diyarhaji.site/#person" },
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://diyarhaji.site/"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ProfessionalService",
+          "@id": "https://diyarhaji.site/#service",
+          "name": "Diyar Haji — Web Development & Project Management",
+          "provider": { "@id": "https://diyarhaji.site/#person" },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Iraq"
+          },
+          "serviceType": [
+            "Frontend Development",
+            "Web Design",
+            "Project Management",
+            "React Development"
+          ],
+          "description": "Professional frontend development and project management services in Duhok, Kurdistan, Iraq. Available in English, Arabic, and Kurdish.",
+          "url": "https://diyarhaji.site/"
+        }
+      ]
+    }
+    </script>
+
+    <!-- =========================================================
+         PERFORMANCE & PRELOADS
+    ========================================================= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Favicon -->
+    <link rel="icon" href="./src/assets/webDiyar.jpg" type="image/jpeg" />
+    <link rel="apple-touch-icon" href="./src/assets/webDiyar.jpg" />
+
+    <!-- Theme color for mobile browsers -->
+    <meta name="theme-color" content="#0A0F1C" />
+    <meta name="msapplication-TileColor" content="#0A0F1C" />
+
+    <!-- =========================================================
+         GEOGRAPHIC / REGIONAL META
+         Helps local search ranking for "frontend developer Iraq"
+    ========================================================= -->
+    <meta name="geo.region" content="IQ-DA" />
+    <meta name="geo.placename" content="Duhok, Kurdistan Region, Iraq" />
+    <meta name="geo.position" content="36.8669;42.9503" />
+    <meta name="ICBM" content="36.8669, 42.9503" />
+
+    <!-- =========================================================
+         MULTILINGUAL CONTENT SIGNAL
+         Explicit language declaration improves indexing for
+         Arabic and Kurdish search queries
+    ========================================================= -->
+    <meta http-equiv="content-language" content="en, ar, ku" />
+
   </head>
 
   <body class="scroll-smooth">
+
+    <!--
+      HIDDEN SEO TEXT BLOCK
+      Rendered in the DOM but visually hidden — helps search engines
+      find multilingual name/role combinations without cluttering UI.
+      This is NOT keyword stuffing; it's accessible text for crawlers.
+    -->
+    <div
+      style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0;"
+      aria-hidden="true"
+    >
+      Diyar Haji — Frontend Developer and Project Manager from Duhok, Kurdistan, Iraq.
+      ديار حاجي — مطور واجهات أمامية ومدير مشاريع من دهوك، كردستان، العراق.
+      دیار حاجی — گەشەپێدەری واجهةی پێشەوە و بەڕێوەبەری پڕۆژە لە دهۆک، کوردستان، عێراق.
+      Frontend developer Iraq. Project manager Kurdistan. Web designer Duhok.
+    </div>
+
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
