@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react' // 👈 Fixed this import
+import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/diyarhaji/', // 👈 Keeps your GitHub subfolder path safe
+  base: '/diyarhaji/', // Must match exact repo name (case-sensitive) with trailing slashes
 })
